@@ -13,12 +13,11 @@ void setup() {
 void draw() {
   background(28, 132, 10);
 
-  // Set the left and top margin
   int margin = 10;
   translate(margin*4, margin*4);
 
-  int gap = 46;
-  int counter = 35;
+  int gap = 45;
+  int counter = 40;
   
   for (int y = 0; y < height-gap; y += gap) {
     for (int x = 0; x < width-gap; x += gap) {
@@ -38,3 +37,6 @@ void draw() {
     }
   }
 }
+
+
+//Resources: https://processing.org/reference/text_.html
